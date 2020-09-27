@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
+
     enum color {
         red = 114, 
         green = 103, 
@@ -9,7 +10,7 @@ int main() {
     } shirt;
 
     char key;
-
+    
     do
     {
         printf("Enter r, g, b :\n");
